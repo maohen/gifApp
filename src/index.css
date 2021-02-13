@@ -4,13 +4,22 @@
 
 body{
     padding: 3rem;
-    background: rgb(162, 162, 162);
+    background: rgb(222,225,240);
 }
 
+h2{
+    color: cadetblue;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
 input{
     color: rgb(128, 128, 128);
     font-size: 1rem;
-    width: 100%;
+    width: 15%;
+    outline: none;
 }
 
 .container-card{
@@ -19,7 +28,7 @@ input{
 }
 
 .card{
-    border: 1px solid gray;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: .4rem;
     justify-content: center;
     margin: .8rem;
